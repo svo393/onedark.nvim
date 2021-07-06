@@ -136,8 +136,8 @@ hl.syntax = {
     Title = colors.Cyan,
     Tag = colors.Green,
     Delimiter = colors.Fg,
-    Comment = colors.Grey, 
-    SpecialComment = colors.Grey, 
+    Comment = colors.Grey,
+    SpecialComment = colors.Grey,
     Todo = colors.Red
 }
 
@@ -151,7 +151,7 @@ hl.treesitter = {
   TSConstant = colors.Orange,
   TSConstBuiltin = colors.Orange,
   TSConstMacro = colors.Orange,
-  TSConstructor = colors.Yellow,
+  TSConstructor = colors.Fg,
   TSError = colors.Fg,
   TSException = colors.Purple,
   TSField = colors.Cyan,
@@ -169,9 +169,9 @@ hl.treesitter = {
   TSNone = colors.Fg,
   TSNumber = colors.Orange,
   TSOperator = colors.Fg,
-  TSParameter = colors.Red,
+  TSParameter = colors.Fg,
   TSParameterReference = colors.Fg,
-  TSProperty = colors.Cyan,
+  TSProperty = colors.Red,
   TSPunctDelimiter = colors.Fg,
   TSPunctBracket = colors.Fg,
   TSPunctSpecial = colors.Fg,
@@ -181,7 +181,7 @@ hl.treesitter = {
   TSStringEscape = colors.Red,
   TSSymbol = colors.Cyan,
   TSTag = colors.Red,
-  TSTagDelimiter = colors.Red,
+  TSTagDelimiter = colors.Fg,
   TSText = colors.Fg,
   TSStrong = colors.Fg,
   TSEmphasis = colors.Fg,
@@ -376,4 +376,3 @@ function M.setup()
 end
 
 return M
-
